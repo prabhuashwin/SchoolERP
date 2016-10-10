@@ -127,6 +127,7 @@
     <Compile Include="Controllers\AuthAPIController.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LogInController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +185,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SchoolERP.Business.DTO\SchoolERP.Business.DTO.csproj">
+      <Project>{80533ca3-39c1-45d3-913d-8fd486627585}</Project>
+      <Name>SchoolERP.Business.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SchoolERP.DTO\SchoolERP.DTO.csproj">
       <Project>{0b727b3c-8b56-4ce4-97ff-daf30dd9d185}</Project>
       <Name>SchoolERP.DTO</Name>

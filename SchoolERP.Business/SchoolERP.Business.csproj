@@ -39,7 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountHandler.cs" />
+    <Compile Include="BaseBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolERP.Business.DTO\SchoolERP.Business.DTO.csproj">
+      <Project>{80533ca3-39c1-45d3-913d-8fd486627585}</Project>
+      <Name>SchoolERP.Business.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SchoolERP.Business.Interfaces\SchoolERP.Business.Interfaces.csproj">
+      <Project>{d01c0901-69e4-49f9-b95b-28b585e50fe0}</Project>
+      <Name>SchoolERP.Business.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
